@@ -85,6 +85,9 @@ Llevamos dos tablas creadas, añadimos llaves primarias, luego la relaciones, re
 Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando modelas desde el programa Data Modeler, de ORACLE
 ![Relacion-categoria-producto](https://github.com/user-attachments/assets/c7873638-7d40-4b85-9460-f54eda9d28c6)
 
+![Relacion-categoria-producto-design](https://github.com/user-attachments/assets/66ead403-1abf-4466-931a-6363093b75e5)
+
+
 
 
 
