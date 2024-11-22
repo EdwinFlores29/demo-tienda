@@ -36,6 +36,38 @@ Escribir codigo java, para ver los cambios en la base de datos, a demas despues 
 Recuerda llamar a los metodos, necesarios por medio de implements.
 ![Implementar-metodos](https://github.com/user-attachments/assets/08db0b05-4c88-4f5f-bef9-68b264b50059)
 
+Activar lombok
+![Activar lombok](https://github.com/user-attachments/assets/d5df5774-2ab3-47a8-9b9e-e9273bf6f0aa)
+
+Paso # 5
+Ver los cambios al desging en el SQL SERVER
+![Modo-Diseño-2](https://github.com/user-attachments/assets/6aab32bb-7bb0-4b2d-82bf-0653184ff3ee)
+
+Paso # 6
+Crear llave primaria
+![Llave Primaria](https://github.com/user-attachments/assets/44c5b362-3175-4d88-8c55-1e0190882173)
+
+![Llave Primaria-2](https://github.com/user-attachments/assets/3b584e0e-cb8a-41a8-b819-35bd665c8831)
+
+Paso # 7
+Como tengo por default, la columna estado, A quiere decir activo, si ponemos I -- Inactivo
+![Insert Into](https://github.com/user-attachments/assets/de3f6f96-8b7f-45a2-9b54-e41f042d403c)
+
+Ademas estare subiendo la query de SQL Server
+Vista, de datos
+![Datos insertados](https://github.com/user-attachments/assets/7502d1e5-bbf1-45bb-949c-b021f92efd56)
+
+Captura, del proyecto en --> http://localhost:8080/tienda-app/categorias
+![Spring Boot](https://github.com/user-attachments/assets/e8942614-f553-401d-a8a3-44fba7525e27)
+
+Ahora, se puede ir trabajando los otras tablas, o bien, comienzo a hacer el front end en React
+
+
+
+
+
+
+
 
 
 
