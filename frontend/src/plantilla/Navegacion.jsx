@@ -15,7 +15,11 @@ export default function Navegacion() {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                             <a className="nav-link" aria-current="page" href="/">Inicio</a>
-                            <Link className="nav-link" to="/agregar">Agregar Categoria</Link>
+                            <Link className="nav-link" to="/agregar-categoria">Agregar Categoria</Link>
+
+                        </div>
+                        <div className="navbar-nav">
+                            <Link className="nav-link" to="/agregar-producto">Agregar Producto</Link>
 
                         </div>
                     </div>

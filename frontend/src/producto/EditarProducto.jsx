@@ -1,8 +1,13 @@
-import {useState} from "react";
-import {useNavigate} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
+import {useEffect, useState} from "react";
 import axios from "axios";
 
-export default function AgregarProducto(){
+export default function EditarProducto(){
+
+    const urlBase = "http://localhost:8080/tienda-app/productos";
+
+    const {id} = useParams();
+
     let navegacion = useNavigate();
 
     const [producto, setProducto] = useState({
@@ -19,10 +24,18 @@ export default function AgregarProducto(){
         setProducto({...producto    , [e.target.name]: e.target.value});
     }
 
+    useEffect(() => {
+        cargarProducto();
+    }, []);
+
+    const cargarProducto = async () => {
+        const resultado = await axios.get(`${urlBase}/${id}`)
+        setProducto(resultado.data);
+    }
+
     const onSubmit = async (e) => {
         e.preventDefault();
-        const urlBase = "http://localhost:8080/rh-app/productos";
-        await axios.post(urlBase, producto);
+        await axios.put(`${urlBase}/${id}`, producto);
         //redirigimos a la pagina de inicio
         navegacion('/')
     }
@@ -30,7 +43,7 @@ export default function AgregarProducto(){
     return (
         <div className="container">
             <div className="container text-center" style={{margin: '30px'}}>
-                <h3>Agregar Producto</h3>
+                <h3>Editar Producto</h3>
             </div>
             <form onSubmit={(e) => onSubmit(e)}>
                 <div className="mb-3">
@@ -58,7 +71,7 @@ export default function AgregarProducto(){
                            value={estado} onChange={(e) => onInputChange(e)}/>
                 </div>
                 <div className="text-center">
-                    <button type="submit" className="btn btn-warning btn-sm me-3">Agregar</button>
+                    <button type="submit" className="btn btn-warning btn-sm me-3">Guardar</button>
                     <a href="/" className="btn btn-danger btn-sm">Regresar</a>
                 </div>
             </form>
