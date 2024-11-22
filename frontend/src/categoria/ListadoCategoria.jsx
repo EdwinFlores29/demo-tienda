@@ -69,13 +69,15 @@ export default function ListadoCategoria() {
                 </h3>
             </div>
 
-            <table className="table">
-                <thead>
+            <table className="table table-hover align-middle">
+                <thead className="table-dark">
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Stock</th>
+                    <th>Estado</th>
+                    <th></th>
                 </tr>
                 </thead>
                 <tbody>
