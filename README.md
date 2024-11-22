@@ -40,7 +40,7 @@ Activar lombok
 ![Activar lombok](https://github.com/user-attachments/assets/d5df5774-2ab3-47a8-9b9e-e9273bf6f0aa)
 
 Paso # 5
-Ver los cambios al desging en el SQL SERVER
+Ver los cambios al design en el SQL SERVER
 ![Modo-Diseño-2](https://github.com/user-attachments/assets/6aab32bb-7bb0-4b2d-82bf-0653184ff3ee)
 
 Paso # 6
@@ -78,6 +78,15 @@ Actualiando insert into, desde SQL Server
 
 Nueva vista
 ![Mostrar - Datos-3](https://github.com/user-attachments/assets/e6c69296-554a-454a-a56e-1967f1f89469)
+
+Paso # 8
+Llevamos dos tablas creadas, añadimos llaves primarias, luego la relaciones, relacionamos para manejar las consultas de manera mas ordenada y eficiente
+
+Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando modelas desde el programa Data Modeler, de ORACLE
+![Relacion-categoria-producto](https://github.com/user-attachments/assets/c7873638-7d40-4b85-9460-f54eda9d28c6)
+
+![Relacion-categoria-producto-design](https://github.com/user-attachments/assets/66ead403-1abf-4466-931a-6363093b75e5)
+
 
 
 
