@@ -105,7 +105,7 @@ export default function ListadoCategoria() {
                     //Iteramos el arreglo de empleados
                     productos.map((producto, indice) => (
                         <tr key={indice}>
-                            <th scope="row">{producto.idEmpleado}</th>
+                            <th scope="row">{producto.idProducto}</th>
                             <td>{producto.descripcion}</td>
                             <td><NumericFormat value={producto.precio}
                                                displayType={'text'}
