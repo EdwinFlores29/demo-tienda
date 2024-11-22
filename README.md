@@ -62,6 +62,8 @@ Captura, del proyecto en --> http://localhost:8080/tienda-app/categorias
 
 Ahora, se puede ir trabajando los otras tablas, o bien, comienzo a hacer el front end en React
 
+para tener el frontend, vamos a dejar en la carpeta del repositorio, con el comando, npx create-react-app frontend .
+
 
 
 
