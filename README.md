@@ -79,6 +79,12 @@ Actualiando insert into, desde SQL Server
 Nueva vista
 ![Mostrar - Datos-3](https://github.com/user-attachments/assets/e6c69296-554a-454a-a56e-1967f1f89469)
 
+Paso # 8
+Llevamos dos tablas creadas, añadimos llaves primarias, luego la relaciones, relacionamos para manejar las consultas de manera mas ordenada y eficiente
+
+Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando modelas desde el programa DATAModelerer, de ORACLE
+![Relacion-categoria-producto](https://github.com/user-attachments/assets/c7873638-7d40-4b85-9460-f54eda9d28c6)
+
 
 
 
