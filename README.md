@@ -18,3 +18,25 @@ spring.jpa.hibernate.ddl-auto=update
 # Modelo-fisico-BD-demo-tienda
 ![image](https://github.com/user-attachments/assets/df067516-3b02-46bf-856e-103dc5670289)
 
+# Como modelado son 5 tablas, para hacer la correlación, se crea cada modelo, con el respectivo nombre de tablas, empezando con el modelo Categoria -->igual al tabla Categoria, pero otro asunto es, que en el SQL Server 2022, se hace unos cambios a nivel de query, lo primero crea la base datos, creo la tabla, verán que el identificador IdCategoria, no esta, para que funcione cuando ejecuto el proyecto spring, hare cambios a la tabla, pero si lo hago de la otra forma, no podre hacer cambios al tabla, una vez creada, por eso dejo la documentación.
+
+Paso # 1
+![Crear-base de datos](https://github.com/user-attachments/assets/edaccace-4785-49cd-918e-cb6c347ac6df)
+
+Paso # 2 - Crear-Tabla Categoria
+![Crear-Tabla Categoria](https://github.com/user-attachments/assets/4f5e3607-3d5a-4d3a-80ed-54f1c5772804)
+
+Paso # 3 Modo-Diseño
+Es decir, revisamos que los columnas, no aceptan nulos, pero cuando ejecutamos el proyecto veran, que nos arrojan otros cambios
+![Modo-Diseño](https://github.com/user-attachments/assets/58f09159-df3a-4d22-8bb1-309f466a6396)
+
+Paso # 4
+Escribir codigo java, para ver los cambios en la base de datos, a demas despues de escribir codigo, tenemos que hacer una Llave primaria, para esta tabla categoria.
+
+Recuerda llamar a los metodos, necesarios por medio de implements.
+![Implementar-metodos](https://github.com/user-attachments/assets/08db0b05-4c88-4f5f-bef9-68b264b50059)
+
+
+
+
+
