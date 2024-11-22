@@ -40,7 +40,7 @@ Activar lombok
 ![Activar lombok](https://github.com/user-attachments/assets/d5df5774-2ab3-47a8-9b9e-e9273bf6f0aa)
 
 Paso # 5
-Ver los cambios al desging en el SQL SERVER
+Ver los cambios al design en el SQL SERVER
 ![Modo-Diseño-2](https://github.com/user-attachments/assets/6aab32bb-7bb0-4b2d-82bf-0653184ff3ee)
 
 Paso # 6
