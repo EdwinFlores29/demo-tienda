@@ -33,6 +33,10 @@ Es decir, revisamos que los columnas, no aceptan nulos, pero cuando ejecutamos e
 Paso # 4
 Escribir codigo java, para ver los cambios en la base de datos, a demas despues de escribir codigo, tenemos que hacer una Llave primaria, para esta tabla categoria.
 
+Recuerda llamar a los metodos, necesarios por medio de implements.
+![Implementar-metodos](https://github.com/user-attachments/assets/08db0b05-4c88-4f5f-bef9-68b264b50059)
+
+
 
 
 
