@@ -14,3 +14,7 @@ spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServerDialect
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=update
 =======================================================================================================================
+
+# Modelo-fisico-BD-demo-tienda
+![image](https://github.com/user-attachments/assets/df067516-3b02-46bf-856e-103dc5670289)
+
