@@ -82,7 +82,7 @@ Nueva vista
 Paso # 8
 Llevamos dos tablas creadas, añadimos llaves primarias, luego la relaciones, relacionamos para manejar las consultas de manera mas ordenada y eficiente
 
-Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando modelas desde el programa DATAModelerer, de ORACLE
+Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando modelas desde el programa Data Modeler, de ORACLE
 ![Relacion-categoria-producto](https://github.com/user-attachments/assets/c7873638-7d40-4b85-9460-f54eda9d28c6)
 
 
