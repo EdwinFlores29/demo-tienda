@@ -87,6 +87,10 @@ Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando mod
 
 ![Relacion-categoria-producto-design](https://github.com/user-attachments/assets/66ead403-1abf-4466-931a-6363093b75e5)
 
+Listo los registros para la tabla Productos
+![Mostrar - Datos-4](https://github.com/user-attachments/assets/09b80eb9-f343-4703-a02f-77674f129d18)
+
+
 
 
 
