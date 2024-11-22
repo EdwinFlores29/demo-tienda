@@ -69,6 +69,19 @@ npm install axios
 npm install react-router-dom
 npm install react-number-format
 
+Archivos -- necesarios para mostrar
+Falta la estructura para modificar, guardar, y eliminar, solo esta haciendo el llamado desde SQL SERVER a front end
+![Mostrar - Datos-1](https://github.com/user-attachments/assets/1f04759a-bf03-4015-8bd4-95f7a92eeab2)
+
+Actualiando insert into, desde SQL Server
+![Mostrar - Datos-2](https://github.com/user-attachments/assets/b4e5b53f-e33b-4d31-86b3-9b62da78416c)
+
+Nueva vista
+![Mostrar - Datos-3](https://github.com/user-attachments/assets/e6c69296-554a-454a-a56e-1967f1f89469)
+
+
+
+
 
 
 
