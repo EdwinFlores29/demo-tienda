@@ -1,14 +1,13 @@
 package com.example.tienda_demo.controlador;
 
+import com.example.tienda_demo.excepcion.RecursoNoEncontradoExcepcion;
 import com.example.tienda_demo.modelo.Categoria;
 import com.example.tienda_demo.servicio.ICategoriaServicio;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -27,5 +26,19 @@ public class CategoriaControlador {
         var categorias = categoriaServicio.ListarCategorias();
         categorias.forEach((categoria -> looger.info(categoria.toString())));
         return categorias;
+    }
+
+    @PostMapping("/agregar-categoria")
+    public Categoria agregarCategoria(@RequestBody Categoria categoria ){
+        looger.info("Categoria a agregar:" + categoria);
+        return categoriaServicio.SalvarCategoria(categoria);
+    }
+
+    @GetMapping ("/categorias/{id}")
+    public ResponseEntity<Categoria> obtenerCategoria(@PathVariable Integer id){
+        Categoria categoria = categoriaServicio.BuscarCategoriaPorId(id);
+        if(categoria == null)
+            throw new RecursoNoEncontradoExcepcion(("No se encontro el empleado con el id: " + id));
+        return ResponseEntity.ok(categoria);
     }
 }

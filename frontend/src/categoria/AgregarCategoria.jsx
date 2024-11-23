@@ -20,7 +20,7 @@ export default function AgregarCategoria() {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        const urlBase = "http://localhost:8080/tienda-app/categorias";
+        const urlBase = "http://localhost:8080/tienda-app/agregar-categoria";
         await axios.post(urlBase, categoria);
         //redirigimos a la pagina de inicio
         navegacion('/')
