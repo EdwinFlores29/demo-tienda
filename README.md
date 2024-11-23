@@ -90,6 +90,16 @@ Tambien estare añadiendo, el datos sobre ejecutar el query completo, cuando mod
 Listo los registros para la tabla Productos
 ![Mostrar - Datos-4](https://github.com/user-attachments/assets/95f2f308-9296-4c69-ac75-2a849904e5fb)
 
+Paso # 9
+Anañadimos dos modelos más, para tener relacionado tabla cliente y ventas, luego nos faltaria la tabla que unan venta y producto.
+![Relacion-categoria-producto-venta-cliente](https://github.com/user-attachments/assets/09f2e62e-1327-47b3-a34c-088a200d69e8)
+
+Paso # 10
+Tenemos lista las relaciones, segun el modelado fisico, dicho anteriormente.
+![Relacion-categoria-producto-venta-cliente-detalleventa](https://github.com/user-attachments/assets/1af39776-f555-4965-8986-4dad52f20d84)
+
+
+
 
 
 
